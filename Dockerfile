@@ -8,4 +8,4 @@ COPY target/spring-petclinic-3.0.0-SNAPSHOT.jar /opt
 EXPOSE 8080
 
 # Commande pour exécuter l'application lorsqu'un conteneur est démarré
-CMD ["java", "-jar", "/opt/spring-petclinic-3.0.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "/opt/spring-petclinic-3.0.0-SNAPSHOT.jar", "--spring.profiles.active=postgres"]
