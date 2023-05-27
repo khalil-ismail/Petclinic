@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: app-petclinic
-        image: registry.gitlab.com/ismailkhalil/patclinic:petclinic_img
+        image: registry.gitlab.com/ismailkhalil/petclinic/petclinic_img:2d4f4ba
         ports:
         - containerPort: 8080
           name: http
