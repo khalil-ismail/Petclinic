@@ -8,14 +8,3 @@ data:
   POSTGRES_DB: petclinic
   POSTGRES_USER: petclinic
   POSTGRES_PASSWORD: petclinic
-
----
-
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: gitlab-credentials
-data:
-  GITLAB_USERNAME: khalilismail
-  GITLAB_PASSWORD: fatiga1103
-
