@@ -17,6 +17,5 @@ spec:
         ports:
         - containerPort: 8080
           name: http
-        envFrom:
-        - configMapRef:
-            name: gitlab-credentials
+      imagePullSecrets:
+      - name: gitlab-registry-secret
