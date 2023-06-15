@@ -4,7 +4,7 @@ kind: PersistentVolumeClaim
 metadata:
   # Name the volume chain
   name: db-persistent-volume-claim
-  #namespace: petclinic
+  namespace: petclinic
 spec:
   storageClassName: manual
   accessModes:
