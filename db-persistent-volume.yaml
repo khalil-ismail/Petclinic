@@ -4,6 +4,7 @@ kind: PersistentVolume
 metadata:
   # Name the persistent chain
   name: postgresdb-persistent-volume
+  namespace: petclinic
   # Labels for identifying PV
   labels:
     type: local
