@@ -4,6 +4,7 @@ kind: Service
 metadata:
   # Name your service
   name: db
+  namespace: petclinic
   labels:
     app: postgresdb
 spec:
