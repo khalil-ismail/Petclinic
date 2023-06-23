@@ -1,4 +1,4 @@
-# Utilisez une image Docker de base contenant Java 11
+# Utilisez une image Docker de base contenant Java 
 FROM openjdk:17-jdk
 
 # Copiez le fichier JAR de votre application dans le conteneur
