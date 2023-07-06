@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: postgresdb
-  namespace: petclinic
+  namespace: spring-petclinic
 spec:
   selector:
     matchLabels:

@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: db-secret-credentials
-  namespace: petclinic
+  namespace: spring-petclinic
   labels:
     app: postgresdb
 data:
